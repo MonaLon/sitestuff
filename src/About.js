@@ -38,8 +38,8 @@ export const About = () => {
     return (
             <div class = "container">
             <Theme>
-                <div class = "row justify-content-center">
-                    <div class = "col d-flex justify-content-center">
+                <div class = "row h-100 justify-content-center">
+                    <div class = "col justify-content-center">
                         <TextBlock>
                             <Layout>
                                     <h4>Kola Heyward-Rotimi is a Faculty Assistant at the University of Maryland's <a href="https://aadhum.umd.edu/">African-American History, Culture, and Digital Humanities initiative (AADHum)</a>. He's originally from Durham, NC and he spent four years of his adolescence in Ile-Ife, Nigeria--his father’s birthplace and one of the cultural touchstones that he incorporates into his scholarship and genre-blending creative writing.</h4>
