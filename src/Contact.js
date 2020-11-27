@@ -16,7 +16,10 @@ const Background = styled.div`
         height: min-vh-100;
         background-size: cover;
         position: center;
+        background-size: cover;
+        background-attachment: fixed;
         background-repeat: no-repeat;
+        overflow: auto;
 `;
 
 const Text = styled.div`
@@ -33,18 +36,18 @@ export const Contact = () => {
     return (
         <Background>
             <Theme>
-                <NaviBar></NaviBar>
-                <div class = "container min-wh-100">
-                    <div class = "row min-vh-100 justify-content-center align-items-center">
-                        <Col>
+                <div class = "container-fluid" style={{height: "100vh"}}>
+                    <div class = "row-fluid">
+                        <NaviBar></NaviBar>
+                    </div>
+                    <div class = "row justify-content-center align-items-center" style={{height: "80vh", margin: "20px"}}>
                             <TextBlock>
                                 <Layout>
                                     <Text>
-                                        <h4>For professional, writing-related things, reach out to my agent Matt. Otherwise, send me an <a href = "mailto:kolaheywardrotimi@gmail.com">email</a> or DM me on <a href = "www.twitter.com/KolaHR">Twitter</a>.</h4>
+                                        <h4>For professional, writing-related things, reach out to my agent <a href="mailto:matt@thetobiasagency.com">Matt</a>. Otherwise, send me an <a href = "mailto:kolaheywardrotimi@gmail.com">email</a> or DM me on <a href = "https://www.twitter.com/KolaHR" target="_blank" rel="noopener noreferrer">Twitter</a>.</h4>
                                     </Text>
                                 </Layout>
                             </TextBlock>
-                        </Col>
                     </div>
                 </div>
             </Theme>
