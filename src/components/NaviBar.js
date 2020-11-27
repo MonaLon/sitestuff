@@ -35,7 +35,6 @@ export const NaviBar = () => (
                     <Nav.Item><Nav.Link href ="/about">about</Nav.Link></Nav.Item>
                     <Nav.Item><Nav.Link href ="/work">work</Nav.Link></Nav.Item>
                     <Nav.Item><Nav.Link href ="/contact">contact</Nav.Link></Nav.Item>
-                    <Nav.Item><Nav.Link href ="/cv">cv</Nav.Link></Nav.Item>
                 </Nav>
             </Navbar.Collapse>
         </Navbar>
