@@ -8,14 +8,20 @@ const Background = styled.div`
         width: 100vw;
         height: 100vh;
         background-size: cover;
-        position: center;
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        overflow: auto;
         background-repeat: no-repeat
 `;
 
 export const Home = () => {
     return (
         <Background>
-            <NaviBar></NaviBar>
+            <div class = "container-fluid" style={{height: "100vh"}}>
+                <div class = "row-fluid">
+                    <NaviBar></NaviBar>
+                </div>
+            </div>
         </Background>
     );
 };
