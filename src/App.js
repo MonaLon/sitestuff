@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import {
   BrowserRouter as Router,
-  HashRouter,
   Switch,
   Route,
   Link
@@ -20,7 +19,7 @@ class App extends Component {
   render() {
     return (
       <React.Fragment>
-          <HashRouter basename="/">
+          <Router basename="/">
             <Switch>
               <Route exact path = "/" component = {Home} />
               <Route path = "/about" component = {About} />
@@ -29,7 +28,7 @@ class App extends Component {
               <Route path = "/contact" component = {Contact} />
               <Route component = {NoMatch} />
             </Switch>
-          </HashRouter>
+          </Router>
       </React.Fragment>
     );
   }
