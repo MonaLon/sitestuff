@@ -4,13 +4,14 @@ import { ThemeProvider } from 'styled-components';
 const theme = {
     color: {
         white: 'white',
-        gray: 'gray'
+        gray: 'gray',
+        black: 'black'
     },
-    font: ['Times New Roman'],
-    fontSizes: {
-        small: '16px',
-        medium: '14px',
-        large: '12px'
+    font: ['Helvetica'],
+    fontSize: {
+        small: '64px',
+        medium: '64px',
+        large: '64px'
     }
 };
 
