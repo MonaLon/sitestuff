@@ -17,23 +17,37 @@ import './App.css';
 import styled from 'styled-components';
 
 const Text = styled.div`
-    font-family: Arial;
+    font-family: "Pragati Narrow";
     color: black;
-    font-size: 60pt;
-    letter-spacing: -2px;
-    line-height: 80px;
+    font-size: 50pt;
+    text-align: justify;
+    line-height: 60px;
     margin-bottom: 30px;
     word-wrap: break-word;
 
     a {
         color: black;
+        text-transform: uppercase;
         text-decoration: underline;
     }
+`;
+
+const Backer = styled.div`
+background-image: linear-gradient(0deg, rgba(1,81,38,1) 0%, rgba(79,158,78,1) 35%, rgba(184,230,184,0.5779353977919293) 100%);
+width: min-vw-100;
+height: min-vh-100;
+background-size: cover;
+position: center;
+background-size: cover;
+background-attachment: fixed;
+background-repeat: no-repeat;
+overflow: auto;
 `;
 
 class App extends Component {
   render() {
     return (
+      <Backer>
       <React.Fragment>
         <div class = "container-fluid" style={{height: "100vh"}}>
             <Text><p>I'm Kola. I'm a Faculty Research Assistant at the <a href="https://mith.umd.edu/" target="_blank">University of Maryland, College Park</a>. I'll be a PhD student at <a href = "https://mtl.stanford.edu" target="_blank">Stanford</a> starting this Fall. Part of my work is speculative.</p>
@@ -53,6 +67,7 @@ class App extends Component {
             <p style = {{ fontSize: '30pt' }}>kolaheywardrotimi at gmail.com</p></Text>
           </div>
       </React.Fragment>
+      </Backer>
     );
   }
 }
