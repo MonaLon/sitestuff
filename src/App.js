@@ -19,10 +19,11 @@ import styled from 'styled-components';
 const Text = styled.div`
     font-family: Arial;
     color: black;
-    font-size: 64pt;
+    font-size: 60pt;
     letter-spacing: -2px;
-    line-height: 90px;
+    line-height: 80px;
     margin-bottom: 30px;
+    word-wrap: break-word;
 
     a {
         color: black;
@@ -49,7 +50,7 @@ class App extends Component {
             <p>•<a href = "https://clarkesworldmagazine.com/heyward-rotimi_10_15/" target="_blank">The Father</a></p>
             <p>⬤</p>
             <p>Here's my <a href = "https://drive.google.com/file/d/1yvXytyBsTRYHSQjrS-0s-oUjgHSFdyNo/view?usp=sharing" target="_blank">CV</a> and <a href = "https://twitter.com/KolaHR" target="_blank">Twitter</a>.</p>
-            <p style = {{ fontSize: '40pt' }}>kolaheywardrotimi at gmail.com</p></Text>
+            <p style = {{ fontSize: '30pt' }}>kolaheywardrotimi at gmail.com</p></Text>
           </div>
       </React.Fragment>
     );
