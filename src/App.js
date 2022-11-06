@@ -50,7 +50,7 @@ class App extends Component {
       <Backer>
       <React.Fragment>
         <div class = "container-fluid" style={{height: "100vh"}}>
-            <Text><p>I'm Kola. I'm a Faculty Research Assistant at the <a href="https://mith.umd.edu/" target="_blank">University of Maryland, College Park</a>. I'll be a PhD student at <a href = "https://mtl.stanford.edu" target="_blank">Stanford</a> starting this Fall. Part of my work is speculative.</p>
+            <Text><p>I'm Kola. I'm a PhD student at <a href = "https://mtl.stanford.edu" target="_blank">Stanford</a>. I was a Faculty Research Assistant at the <a href="https://mith.umd.edu/" target="_blank">University of Maryland, College Park</a>. Part of my work is speculative.</p>
             <p>⬤</p>
             <p>Here are some things I've written:</p>
             <p>•<a href = "https://reviewsindh.pubpub.org/pub/black-meme/release/1" target = "_blank">Review: BLACK MEME</a></p>
